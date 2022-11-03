@@ -9,7 +9,9 @@
 
 # YOU DO the rest:
 
-
+# The include method is called on the string object "Hello World"
+# include checks the string for the passeed argument "Hello"
+# Since the argument "Hello" appears in the string, the return value is true.
 "Hello World".include?("Hello")
 
 
