@@ -24,6 +24,9 @@
 # Since the string ends with the passed argument of "rld", the return value is true.
 "Hello World".end_with?("rld")
 
+# The even? method calls on any array of integers or solo integers.
+# even? checks the array or integer to see if it is divisible by 2.
+# Since there is no array or integers passed as an argument to the method, we get an error for the return value.
 
 12.even?
 
