@@ -27,10 +27,11 @@
 # The even? method calls on any array of integers or solo integers.
 # even? checks the array or integer to see if it is divisible by 2.
 # Since there is no array or integers passed as an argument to the method, we get an error for the return value.
-
 12.even?
 
-
+# The next method calls on any integers.
+# next will return he next consecutive integer from a passed argument
+# Since there is no integers passed as an argument to the method, we get an error for the return value.
 18.next
 
 
