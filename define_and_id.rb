@@ -30,7 +30,7 @@
 12.even?
 
 # The next method calls on any integers.
-# next will return he next consecutive integer from a passed argument
+# next will return the next consecutive integer from a passed argument
 # Since there is no integers passed as an argument to the method, we get an error for the return value.
 18.next
 

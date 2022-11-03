@@ -8,9 +8,12 @@
 #  call reverse on the variable, print it out
 #  call length on the variable, print it out
 
+name = "Dawson"
 
-
-
+p name.upcase
+p name.downcase
+p name.reverse
+p name.length
 
 
 
