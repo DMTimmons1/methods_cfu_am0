@@ -10,14 +10,18 @@
 # YOU DO the rest:
 
 # The include method is called on the string object "Hello World"
-# include checks the string for the passeed argument "Hello"
+# include checks the string for the passeed argument of "Hello"
 # Since the argument "Hello" appears in the string, the return value is true.
 "Hello World".include?("Hello")
 
-
+# The end_with method is called on the string object "Hello World"
+# end_with checks the string to see if the passeed argument of "Hello", is last word to appear in the string.
+# Since the string does not end with the passed argument of "Hello", the return value is fasle.
 "Hello World".end_with?("Hello")
 
-
+# The end_with method is called on the string object "rld"
+# end_with checks the string to see if the passeed argument of "rld", is last word to appear in the string.
+# Since the string ends with the passed argument of "rld", the return value is true.
 "Hello World".end_with?("rld")
 
 
